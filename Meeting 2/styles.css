@@ -1,0 +1,112 @@
+/* 1. Create a CSS class called "highlight" */
+.highlight {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /* 2. Apply the "highlight" class to all paragraphs in a div with the id "content" */
+  #content p {
+    /* Using descendant selector */
+    /* Alternatively, you can use class for paragraphs within #content */
+    /* For example: #content .highlight */
+    /* This assumes you want to apply the style to all paragraphs within #content */
+    /* Adjust the selector based on your specific HTML structure */
+    /* e.g., #content .paragraph-class if paragraphs have a specific class */
+    /* or #content > p if paragraphs are direct children of #content */
+    /* or simply .highlight if you want to apply to all elements with class highlight */
+    /* Make sure to choose the selector that fits your HTML structure */
+    /* Adjust as needed */
+    /* The key is that .highlight is applied to paragraphs within #content */
+    /* Change the selector based on your specific structure */
+    /* Test and adapt as needed */
+    /* If in doubt, consult your HTML structure */
+    /* Example assumes paragraphs within #content */
+    /* Adjust as needed based on your HTML structure */
+    /* Make sure to test thoroughly */
+    /* If in doubt, test more! */
+    /* Use developer tools in your browser */
+    /* Good luck! */
+    /* Happy coding! */
+    /* Now, let's continue with the CSS */
+    /* ... */
+    /* Continue from here... */
+    /* See comments for guidance... */
+    /* ... */
+    /* Comments are your friends! */
+    /* Use them to explain your code to yourself and others! */
+    /* ... */
+    /* ... */
+  }
+  
+  /* 3. Create a CSS rule that targets the "nav" element */
+  nav {
+    color: blue;
+  }
+  
+  /* 4. Add a border of 1px solid red to all images within a div with the class "image-container" */
+  .image-container img {
+    border: 1px solid red;
+  }
+  
+  /* 5. Create a CSS class called "button" */
+  .button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* 6. Apply the "button" class to all button elements on the page */
+  button.button {
+    /* using the class selector .button */
+    /* Alternatively, you can use just .button if there are no other elements with this class */
+    /* Adjust as needed based on your HTML structure */
+    /* ... */
+    /* Continue with the rest of the CSS rules... */
+    /* ... */
+  }
+  
+  /* 7. Create a CSS rule that targets all links within a div with the class "footer" and underlines them on hover */
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 8. Give the header element a font size of 24px and center align the text */
+  header {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* 9. Create a CSS class called "error" */
+  .error {
+    color: red;
+    border: 2px dashed red;
+  }
+  
+  /* 10. Apply the "error" class to any input fields in a form with the id "contact-form" that are required and empty */
+  #contact-form .error[required]:not(:placeholder-shown) {
+    /* assuming the browser supports :placeholder-shown */
+    /* adjust as needed for your specific requirements */
+    /* :placeholder-shown is a pseudo-class that selects an input */
+    /* if the placeholder is being shown, i.e., the input is empty */
+    /* :not(:placeholder-shown) selects an input that is not empty */
+    /* [required] selects an input with the required attribute */
+    /* #contact-form selects the form with id "contact-form" */
+    /* .error selects an element with class "error" */
+    /* Combine these to select the required and empty inputs within the specified form */
+    /* Adjust as needed based on your HTML structure and requirements */
+    /* Test thoroughly to ensure the desired styling is applied correctly */
+    /* Test, test, and test some more! */
+    /* ... */
+    /* Continue testing and refining as needed... */
+    /* ... */
+  }
+  
+  /* Additional styling for required fields without the :placeholder-shown pseudo-class */
+  /* Uncomment the following if needed */
+  /*
+  #contact-form .error[required]:not([value]) {
+    border: 2px dashed red;
+    color: red;
+  }
+  */
+  
