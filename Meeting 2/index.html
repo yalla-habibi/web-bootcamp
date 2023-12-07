@@ -1,56 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Exercise Test</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <meta charset="UTF-8">
+    <title>CityDrive Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <h1>Header Text</h1>
-  </header>
+    <header>
+        <h1 id="company-name">CityDrive Car Rental</h1>
+        <p class="slogan">Explore the City with CityDrive</p>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-    </ul>
-  </nav>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" class="menu-item">Home</a></li>
+            <li><a href="#" class="menu-item">Fleet</a></li>
+            <li><a href="#" class="menu-item">About Us</a></li>
+            <li><a href="#" class="menu-item">Contact</a></li>
+        </ul>
+    </nav>
 
-  <div id="content">
-    <p>Paragraph 1 2</p>
-    <p>Paragraph 2 </p>
-    <p>Paragraph 3</p>
-  </div>
+    <main>
+        <section id="available-cars">
+            <h2 class="section-title">Available Cars</h2>
+            <div class="car-item">
+                <h3 class="car-model">Sedan</h3>
+                <p class="car-description">Comfortable and stylish sedans for your city adventures.</p>
+                <span class="car-price">$49.99/day</span>
+            </div>
+            <div class="car-item">
+                <h3 class="car-model">SUV</h3>
+                <p class="car-description">Spacious SUVs, perfect for family trips or outdoor activities.</p>
+                <span class="car-price">$69.99/day</span>
+            </div>
+        </section>
+    </main>
 
-  <div class="image-container">
-    <img src="https://via.placeholder.com/150" alt="Image 1">
-    <img src="https://via.placeholder.com/150" alt="Image 2">
-  </div>
-
-  <button>Button 1</button>
-  <button class="button">Button 2</button>
-
-  <div class="footer">
-    <a href="#">Footer Link 1</a> <br>
-    <a href="#">Footer Link 2</a>
-  </div>
-
-  <form id="contact-form">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" class="error" required>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" class="error" required>
-
-    <button type="submit">Submit</button>
-  </form>
+    <footer>
+        <p class="footer-text">&copy; 2023 CityDrive Car Rental</p>
+    </footer>
 
 </body>
 </html>
