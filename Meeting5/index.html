@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Daniel's Tea House</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Daniel's Tea House</h1>
+    </header>
+
+    <div class="container">
+        <aside id="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <h2>Get in touch with us</h2>
+            <p>Follow us on social media</p>
+            <ul>
+                <li><a href="https://facebook.com/danielsteahouse">Facebook</a></li>
+                <li><a href="https://instagram.com/danielsteahouse">Instagram</a></li>
+                <li><a href="https://twitter.com/danielsteahouse">Twitter</a></li>
+            </ul>
+        </aside>
+        <main>
+            <section id="about-us" class="content">
+                <h2>About Daniel's Tea House</h2>
+                <p>Welcome to Daniel's, where we have a premium selection of teas.</p>
+                <div class="image-section">
+                    <img src="https://st.hzcdn.com/simgs/pictures/landscapes/japanese-tea-house-miriam-s-river-house-designs-llc-img~9d71273a03289a43_14-3596-1-67f31b7.jpg" alt="Daniel's Tea House Photo">
+                </div>
+            </section>
+            
+            <section id="menu" class="content">
+                <h2>Tea Menu</h2>
+                <div class="item">
+                    <h3>Earl Grey</h3>
+                    <p>Classic blend of black tea</p>
+                </div> 
+                <div class="item">
+                    <h3>English Breakfast</h3>
+                    <p>Start your day with this tea</p>
+                </div> 
+                <div class="item">
+                    <h3>Mint Cottage Herb</h3>
+                    <p>Classic and healthy</p>
+                </div> 
+            </section>
+            
+            <section id="specials" class="content">
+                <h2>Specials</h2>
+                <div class="special">
+                    <h3>Tea Special</h3>
+                    <p>Very special tea item</p>
+                </div>
+                <div class="special">
+                    <h3>Coffee Special</h3>
+                    <p>Very special coffee item</p>
+                </div>
+            </section>
+            
+            <section id="contact" class="content">
+                <h2>Contact the Tea House</h2>
+                <p>Visit us:</p>
+                <p>Email: <a href="mailto:daniel@pricer.pl">daniel@pricer.pl</a></p>
+                <p>Phone: +365 3452 342</p>
+            </section>
+
+            <footer>
+                <p> 2023 Daniel's Tea House. Come and visit us! </p>
+            </footer>
+
+        </main>
+    </div>
+    <div id="button-block">
+        <button onclick="handleButtonClick()">Add New Section</button>
+        <button id="changeHeaderColorBtn">Change Header Color</button>
+        <button id="addRandomSectionBtn">Add Random Section</button>
+        <button id="changeFooterTextColorBtn">Change Footer Text Color</button>
+        <button id="resetStylesBtn">Reset Styles</button>
+    </div>
+</body>
+</html>
