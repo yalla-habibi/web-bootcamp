@@ -1,0 +1,34 @@
+# Step 1: Set up a Local Repository
+mkdir git-live-coding
+cd git-live-coding
+git init
+
+# Step 2: Create and Track Changes
+echo "Welcome to Git Live Coding Session!" > welcome.txt
+git add welcome.txt
+git commit -m "Initial commit: Add welcome.txt"
+
+# Step 3: Create a Remote Repository on GitHub
+# - Create a new repository on GitHub and get the repository URL.
+
+# Step 4: Connect Local and Remote Repositories
+git remote add origin <paste-your-remote-url>
+git push -u origin master
+
+# Step 5: Create a Feature Branch and Make Changes
+git checkout -b feature_greeting
+echo "Hello from the feature branch!" >> welcome.txt
+git add welcome.txt
+git commit -m "Feature: Add personalized greeting"
+
+# Step 6: Create a Merge Request
+git push -u origin feature_greeting
+# - Go to GitHub and create a pull request for feature_greeting into master.
+
+# Step 7: Review and Merge
+# - Resolve any conflicts locally if needed.
+# - Merge the pull request on GitHub.
+
+# Step 8: Update Local Repository
+git checkout master
+git pull origin master
